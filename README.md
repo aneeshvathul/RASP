@@ -1,2 +1,3 @@
-# RASP
-A collaborative Renal AI Segmentation Pipeline (RASP)
+# RASP: A collaborative Renal AI Segmentation Pipeline
+
+
