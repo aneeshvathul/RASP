@@ -1,10 +1,10 @@
-# RASP: A collaborative Renal AI Segmentation Pipeline
+RASP: A collaborative Renal AI Segmentation Pipeline
 
-# 1) Collaboration
+1) Collaboration
 
-# 2) Customization
+2) Customization
 
-# 3) Pre-Set Automation
+3) Pre-Set Automation
 
 
 
