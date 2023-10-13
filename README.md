@@ -6,10 +6,9 @@
 
 2) Customization
 * Created a fully functional Python runtime environment inside QuPath
-* Pathologists can run their own robust machine learning and data analysis scripts inside of QuPath
+* Pathologists can run their own robust AI, machine learning, and data analysis scripts inside of QuPath
+* Supports Paquo integration through the QuPath interface
 
-3) Pre-Set Automation
-* Includes a pretrained renal tissue segmentation model, fully integrated with QuPath via the Paquo library
 
 
 
