@@ -7,8 +7,11 @@
 2) Customization
 * Created a fully functional Python runtime environment inside QuPath
 * Pathologists can run their own robust AI, machine learning, and data analysis scripts inside of QuPath
-* Supports Paquo integration through the QuPath interface
+* Supports Paquo integration
 
+3) Convenience
+* Users can import and export binary segmentation masks directly through the QuPath interface
+* Access to GUI-based script execution
 
 
 
