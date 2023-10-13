@@ -1,0 +1,52 @@
+Class OmeroShowPullAnnotationsDialog:
+
+	Methods:
+		
+		static String pathObjectDisplayName(PathObject ann):
+			Returns the name of a PathObject that is displayed
+			on the selection menu for pulling PathObjects from OMERO
+		
+		static Collection<PathObjectWithMetadata> getPullSelections(QuPathGUI qupath , QuPathViewer viewer, OmeroWebImageServer omeroServer):
+			Returns a collection of PathObjects that are available to be pulled
+			from a specified OMERO server into a Qupath project
+
+		
+Class PathObjectWithMetadata:
+
+	Constructor:
+		
+		public PathObjectWithMetadata(PathObject pathObject, String userName, double id):
+			A PathObjectWithMetadata object essentially stores a PathObject along with
+			the username of the person who "owns" the PathObject and the object's ID.
+
+	Methods:
+		public PathObject getPathObject():
+			Returns PathObject associated with the PathObjectWithMetadata
+		
+		public String getUserName():
+			Returns username of the owner of the PathObjectWithMetadata
+
+		public double getID():
+			Returns the ID of the PathObjectWithMetadata
+		
+		public void setID(double newId):
+			Assigns a new ID to the PathObjectWithMetadata
+		
+		public String roiDescription():
+			Returns a String contained data on the ROI associated with the PathObject,
+			contained in the PathObjectWithMetadata
+
+
+Class OmeroWebImageServer:
+
+	Methods:
+	
+		public Collection<PathObjectWithMetadata> readPathObjectsWithMetadata(List<PathClass> pathClasses, List<Long> colors):
+			Returns a Collection of PathObjectWithMedata that essentially stores the annotations read from OMERO
+
+		public HashMap<String, Collection<PathObjectWithMetadata>> getUserToPmdMap(QuPathViewer viewer, QuPathGUI qupath):
+			Returns a map of OMERO database user to the PathObjectWithMetadata annotations that they own
+
+
+		
+		
