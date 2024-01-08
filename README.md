@@ -1,4 +1,4 @@
-# RASP: A collaborative Renal AI Segmentation Pipeline
+# RASP: A Collaborative Renal AI Segmentation Pipeline
 
 1) Collaboration
 * Added a pull feature to the QuPath-OMERO Extension
