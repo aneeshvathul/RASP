@@ -5,7 +5,7 @@
 * Pathologists can export their annotations to OMERO and retrieve them without ever leaving QuPath!
 
 2) Customization
-* Created a fully functional Python runtime environment inside QuPath
+* Created a Python scripting extension inside QuPath
 * Pathologists can run their own robust AI, machine learning, and data analysis scripts inside of QuPath
 * Supports Paquo integration
 
